@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlControl = new System.Windows.Forms.Panel();
             this.lblUser = new System.Windows.Forms.Label();
-            this.btnClose = new System.Windows.Forms.Button();
             this.dgvInvoiceProduct = new System.Windows.Forms.DataGridView();
             this.InvoiceDetailsID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +50,7 @@
             this.lblCustomer = new System.Windows.Forms.Label();
             this.txtTotalAmount = new System.Windows.Forms.TextBox();
             this.lblTotalAmount = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.pnlControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInvoiceProduct)).BeginInit();
             this.SuspendLayout();
@@ -79,26 +81,18 @@
             this.lblUser.TabIndex = 0;
             this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Image = global::StoreXManagement.Properties.Resources.close_lightColor;
-            this.btnClose.Location = new System.Drawing.Point(659, 0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(30, 31);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // dgvInvoiceProduct
             // 
             this.dgvInvoiceProduct.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvInvoiceProduct.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvInvoiceProduct.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvInvoiceProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvInvoiceProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInvoiceProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.InvoiceDetailsID,
@@ -107,8 +101,17 @@
             this.Quantity,
             this.Price,
             this.CustomerID});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvInvoiceProduct.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvInvoiceProduct.GridColor = System.Drawing.Color.Black;
             this.dgvInvoiceProduct.Location = new System.Drawing.Point(229, 86);
-            this.dgvInvoiceProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvInvoiceProduct.Margin = new System.Windows.Forms.Padding(2);
             this.dgvInvoiceProduct.Name = "dgvInvoiceProduct";
             this.dgvInvoiceProduct.ReadOnly = true;
             this.dgvInvoiceProduct.RowHeadersWidth = 51;
@@ -173,6 +176,8 @@
             // lblListProduct
             // 
             this.lblListProduct.AutoSize = true;
+            this.lblListProduct.BackColor = System.Drawing.Color.Transparent;
+            this.lblListProduct.ForeColor = System.Drawing.Color.White;
             this.lblListProduct.Location = new System.Drawing.Point(226, 71);
             this.lblListProduct.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblListProduct.Name = "lblListProduct";
@@ -183,6 +188,7 @@
             // lblUpdateInvoice
             // 
             this.lblUpdateInvoice.AutoSize = true;
+            this.lblUpdateInvoice.BackColor = System.Drawing.Color.Transparent;
             this.lblUpdateInvoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUpdateInvoice.Location = new System.Drawing.Point(224, 33);
             this.lblUpdateInvoice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -194,7 +200,7 @@
             // txtStaff
             // 
             this.txtStaff.Location = new System.Drawing.Point(91, 151);
-            this.txtStaff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStaff.Margin = new System.Windows.Forms.Padding(2);
             this.txtStaff.Name = "txtStaff";
             this.txtStaff.ReadOnly = true;
             this.txtStaff.Size = new System.Drawing.Size(126, 20);
@@ -203,6 +209,7 @@
             // lblInvoiceStaff
             // 
             this.lblInvoiceStaff.AutoSize = true;
+            this.lblInvoiceStaff.BackColor = System.Drawing.Color.Transparent;
             this.lblInvoiceStaff.Location = new System.Drawing.Point(15, 153);
             this.lblInvoiceStaff.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInvoiceStaff.Name = "lblInvoiceStaff";
@@ -216,7 +223,7 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.ForeColor = System.Drawing.SystemColors.Control;
             this.btnSave.Location = new System.Drawing.Point(18, 324);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(56, 28);
             this.btnSave.TabIndex = 27;
@@ -230,7 +237,7 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.ForeColor = System.Drawing.SystemColors.Control;
             this.btnCancel.Location = new System.Drawing.Point(161, 324);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(56, 28);
             this.btnCancel.TabIndex = 26;
@@ -244,7 +251,7 @@
             this.btnAddProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddProduct.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAddProduct.Location = new System.Drawing.Point(161, 216);
-            this.btnAddProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddProduct.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddProduct.Name = "btnAddProduct";
             this.btnAddProduct.Size = new System.Drawing.Size(56, 39);
             this.btnAddProduct.TabIndex = 25;
@@ -258,7 +265,7 @@
             this.cboCustomer.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cboCustomer.FormattingEnabled = true;
             this.cboCustomer.Location = new System.Drawing.Point(91, 120);
-            this.cboCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.cboCustomer.Name = "cboCustomer";
             this.cboCustomer.Size = new System.Drawing.Size(126, 21);
             this.cboCustomer.TabIndex = 23;
@@ -266,6 +273,7 @@
             // lblCustomer
             // 
             this.lblCustomer.AutoSize = true;
+            this.lblCustomer.BackColor = System.Drawing.Color.Transparent;
             this.lblCustomer.Location = new System.Drawing.Point(15, 128);
             this.lblCustomer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCustomer.Name = "lblCustomer";
@@ -277,7 +285,7 @@
             // 
             this.txtTotalAmount.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtTotalAmount.Location = new System.Drawing.Point(91, 181);
-            this.txtTotalAmount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTotalAmount.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotalAmount.Name = "txtTotalAmount";
             this.txtTotalAmount.ReadOnly = true;
             this.txtTotalAmount.Size = new System.Drawing.Size(126, 20);
@@ -286,6 +294,7 @@
             // lblTotalAmount
             // 
             this.lblTotalAmount.AutoSize = true;
+            this.lblTotalAmount.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalAmount.Location = new System.Drawing.Point(15, 184);
             this.lblTotalAmount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotalAmount.Name = "lblTotalAmount";
@@ -293,10 +302,27 @@
             this.lblTotalAmount.TabIndex = 29;
             this.lblTotalAmount.Text = "Total Amount";
             // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Image = global::StoreXManagement.Properties.Resources.close_lightColor;
+            this.btnClose.Location = new System.Drawing.Point(659, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 31);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // frmUpdateInvoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::StoreXManagement.Properties.Resources.hinh_nen_desktop_611;
             this.ClientSize = new System.Drawing.Size(689, 377);
             this.Controls.Add(this.lblTotalAmount);
             this.Controls.Add(this.txtTotalAmount);
@@ -311,8 +337,9 @@
             this.Controls.Add(this.lblListProduct);
             this.Controls.Add(this.dgvInvoiceProduct);
             this.Controls.Add(this.pnlControl);
+            this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmUpdateInvoice";
             this.Text = "UpdateInvoice";
             this.Load += new System.EventHandler(this.frmUpdateInvoice_Load);

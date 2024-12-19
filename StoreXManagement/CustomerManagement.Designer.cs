@@ -78,7 +78,7 @@
             this.Address});
             this.dgvCustomer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvCustomer.Location = new System.Drawing.Point(0, 46);
-            this.dgvCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.dgvCustomer.Name = "dgvCustomer";
             this.dgvCustomer.ReadOnly = true;
             this.dgvCustomer.RowHeadersWidth = 51;
@@ -123,6 +123,7 @@
             // 
             // pnlCustom
             // 
+            this.pnlCustom.BackColor = System.Drawing.Color.Transparent;
             this.pnlCustom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlCustom.Controls.Add(this.lblSearchNotification);
             this.pnlCustom.Controls.Add(this.picRefresh);
@@ -132,7 +133,7 @@
             this.pnlCustom.Controls.Add(this.txtSearchName);
             this.pnlCustom.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlCustom.Location = new System.Drawing.Point(0, 0);
-            this.pnlCustom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlCustom.Margin = new System.Windows.Forms.Padding(2);
             this.pnlCustom.Name = "pnlCustom";
             this.pnlCustom.Size = new System.Drawing.Size(970, 46);
             this.pnlCustom.TabIndex = 1;
@@ -151,7 +152,7 @@
             // 
             this.picRefresh.Image = global::StoreXManagement.Properties.Resources.refresh_darkColor;
             this.picRefresh.Location = new System.Drawing.Point(349, 21);
-            this.picRefresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picRefresh.Margin = new System.Windows.Forms.Padding(2);
             this.picRefresh.Name = "picRefresh";
             this.picRefresh.Size = new System.Drawing.Size(20, 20);
             this.picRefresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -166,7 +167,7 @@
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Image = global::StoreXManagement.Properties.Resources.search_darkColor1;
             this.btnSearch.Location = new System.Drawing.Point(327, 21);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(18, 19);
             this.btnSearch.TabIndex = 20;
@@ -183,7 +184,7 @@
             this.btnAdd.Image = global::StoreXManagement.Properties.Resources.add_lightColor;
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdd.Location = new System.Drawing.Point(893, 16);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(52, 24);
             this.btnAdd.TabIndex = 2;
@@ -198,6 +199,7 @@
             this.lblSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblSearch.AutoSize = true;
+            this.lblSearch.ForeColor = System.Drawing.Color.White;
             this.lblSearch.Location = new System.Drawing.Point(2, 6);
             this.lblSearch.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSearch.Name = "lblSearch";
@@ -211,7 +213,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtSearchName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSearchName.Location = new System.Drawing.Point(2, 22);
-            this.txtSearchName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSearchName.Margin = new System.Windows.Forms.Padding(2);
             this.txtSearchName.Name = "txtSearchName";
             this.txtSearchName.Size = new System.Drawing.Size(321, 20);
             this.txtSearchName.TabIndex = 1;
@@ -219,7 +221,7 @@
             // 
             // pnlAdd
             // 
-            this.pnlAdd.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlAdd.BackColor = System.Drawing.Color.Transparent;
             this.pnlAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlAdd.Controls.Add(this.lblNotification);
             this.pnlAdd.Controls.Add(this.btnUpdate);
@@ -239,7 +241,7 @@
             this.pnlAdd.Controls.Add(this.lblID);
             this.pnlAdd.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlAdd.Location = new System.Drawing.Point(732, 46);
-            this.pnlAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlAdd.Margin = new System.Windows.Forms.Padding(2);
             this.pnlAdd.Name = "pnlAdd";
             this.pnlAdd.Size = new System.Drawing.Size(238, 502);
             this.pnlAdd.TabIndex = 2;
@@ -264,7 +266,7 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.Control;
             this.btnUpdate.Location = new System.Drawing.Point(173, 473);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(52, 25);
             this.btnUpdate.TabIndex = 8;
@@ -280,7 +282,7 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.ForeColor = System.Drawing.SystemColors.Control;
             this.btnCancel.Location = new System.Drawing.Point(92, 472);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(52, 25);
             this.btnCancel.TabIndex = 7;
@@ -295,7 +297,7 @@
             this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsert.ForeColor = System.Drawing.SystemColors.Control;
             this.btnInsert.Location = new System.Drawing.Point(10, 472);
-            this.btnInsert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInsert.Margin = new System.Windows.Forms.Padding(2);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(52, 25);
             this.btnInsert.TabIndex = 6;
@@ -346,7 +348,7 @@
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(87, 123);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(141, 49);
@@ -355,7 +357,7 @@
             // txtPhoneNumber
             // 
             this.txtPhoneNumber.Location = new System.Drawing.Point(87, 80);
-            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtPhoneNumber.MaxLength = 10;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(141, 20);
@@ -364,7 +366,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(87, 41);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(141, 20);
             this.txtName.TabIndex = 3;
@@ -373,7 +375,7 @@
             // 
             this.txtID.ForeColor = System.Drawing.Color.Silver;
             this.txtID.Location = new System.Drawing.Point(87, 3);
-            this.txtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtID.Margin = new System.Windows.Forms.Padding(2);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(141, 20);
             this.txtID.TabIndex = 2;
@@ -385,6 +387,7 @@
             // 
             this.lblAddress.AutoSize = true;
             this.lblAddress.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblAddress.ForeColor = System.Drawing.Color.White;
             this.lblAddress.Location = new System.Drawing.Point(2, 123);
             this.lblAddress.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAddress.Name = "lblAddress";
@@ -395,6 +398,7 @@
             // lblPhoneNumber
             // 
             this.lblPhoneNumber.AutoSize = true;
+            this.lblPhoneNumber.ForeColor = System.Drawing.Color.White;
             this.lblPhoneNumber.Location = new System.Drawing.Point(2, 83);
             this.lblPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
@@ -405,6 +409,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
+            this.lblName.ForeColor = System.Drawing.Color.White;
             this.lblName.Location = new System.Drawing.Point(2, 44);
             this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
@@ -415,6 +420,7 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
+            this.lblID.ForeColor = System.Drawing.Color.White;
             this.lblID.Location = new System.Drawing.Point(2, 7);
             this.lblID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblID.Name = "lblID";
@@ -431,11 +437,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::StoreXManagement.Properties.Resources.hinh_nen_may_tinh_dep_4k2;
             this.ClientSize = new System.Drawing.Size(970, 548);
             this.Controls.Add(this.pnlAdd);
             this.Controls.Add(this.dgvCustomer);
             this.Controls.Add(this.pnlCustom);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmCustomerManagement";
             this.Text = "CustomerManagement";
             this.Load += new System.EventHandler(this.frmCustomerManagement_Load);

@@ -104,7 +104,6 @@ namespace StoreXManagement
             FillData();
             FillCategories(cboCategory);
             FillCategories(cboSearchCategory);
-
             switch (GetUser.Access)
             {
                 case "Admin":
@@ -316,14 +315,15 @@ namespace StoreXManagement
                     + " where ProductID = @id";
 
                     connection.Open();
+                    int Quantity = Convert.ToInt32(quantity);
 
                     //Update in to SQL
                     SqlCommand cmd = new SqlCommand(update, connection);
                     cmd.Parameters.Add("@id", SqlDbType.Int).Value = id;
                     cmd.Parameters.Add("@name", SqlDbType.NVarChar).Value = name;
-                    cmd.Parameters.Add("@price", SqlDbType.Int).Value = price;
-                    cmd.Parameters.Add("@quantity", SqlDbType.Int).Value = quantity;
-                    cmd.Parameters.Add("@categoryid", SqlDbType.Int).Value = category;
+                    cmd.Parameters.Add("@price", SqlDbType.Decimal).Value = Convert.ToDecimal(price);
+                    cmd.Parameters.Add("@quantity", SqlDbType.Int).Value = Quantity;
+                    cmd.Parameters.Add("@categoryid", SqlDbType.Int).Value = Convert.ToInt32(category);
 
                     //Convert Image to byte
                     if (picImage.Image != null)
@@ -342,8 +342,6 @@ namespace StoreXManagement
                         cmd.Parameters.Add("@Image", SqlDbType.VarBinary);
                         cmd.Parameters["@Image"].Value = DBNull.Value;
                     }
-
-
                     int i = cmd.ExecuteNonQuery();
                     if (i > 0)
                     {
@@ -545,6 +543,21 @@ namespace StoreXManagement
             {
                 picRefresh_Click(sender,e);
             }
+        }
+
+        private void dgvProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pnlAdd_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblID_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -42,33 +42,10 @@ namespace StoreXManagement
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        //Expand pnlSlidebar
-        bool sidebarExpand = true;
-        private void timeSlidebar_Tick(object sender, EventArgs e)
-        {
-            if (sidebarExpand)
-            {
-                pnlSlidebar.Width += 10;
-                if (pnlSlidebar.Width >= 213)
-                {
-                    sidebarExpand = false;
-                    timeSlidebar.Stop();
-                }
-            }
-            else
-            {
-                pnlSlidebar.Width -= 10;
-                if (pnlSlidebar.Width <= 64)
-                {
-                    sidebarExpand = true;
-                    timeSlidebar.Stop();
-                }
-            }
-        }
-
         private void frmDashboard_Load(object sender, EventArgs e)
         {
-            //??????
+            pnlLogin.BackColor = Color.FromArgb(100, 0, 0, 0);
+            
         }
 
         //Close App
@@ -209,7 +186,7 @@ namespace StoreXManagement
 
         private void picMenu_Click(object sender, EventArgs e)
         {
-            timeSlidebar.Start();
+            
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -247,5 +224,9 @@ namespace StoreXManagement
             }
         }
 
+        private void pnlLogin_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

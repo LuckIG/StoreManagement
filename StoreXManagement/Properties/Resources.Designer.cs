@@ -63,6 +63,36 @@ namespace StoreXManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0055_png_860 {
+            get {
+                object obj = ResourceManager.GetObject("0055.png_860", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3_15_scaled {
+            get {
+                object obj = ResourceManager.GetObject("3-15-scaled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3_15_scaled1 {
+            get {
+                object obj = ResourceManager.GetObject("3-15-scaled1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_lightColor {
             get {
                 object obj = ResourceManager.GetObject("add-lightColor", resourceCulture);
@@ -136,6 +166,96 @@ namespace StoreXManagement.Properties {
         internal static System.Drawing.Bitmap hide_darkColor {
             get {
                 object obj = ResourceManager.GetObject("hide-darkColor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_8d_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-8d-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_8d_thumbnail1 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-8d-thumbnail1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_desktop_61 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-desktop-61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_desktop_611 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-desktop-611", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_may_tinh_dep_4k {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-may-tinh-dep-4k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_may_tinh_dep_4k___Copy {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-may-tinh-dep-4k - Copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_may_tinh_dep_4k___Copy1 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-may-tinh-dep-4k - Copy1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_may_tinh_dep_4k1 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-may-tinh-dep-4k1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_nen_may_tinh_dep_4k2 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-nen-may-tinh-dep-4k2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

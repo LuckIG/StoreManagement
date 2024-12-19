@@ -60,12 +60,13 @@
             this.Date,
             this.TotalAmount});
             this.dgvInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvInvoice.Location = new System.Drawing.Point(0, 56);
+            this.dgvInvoice.Location = new System.Drawing.Point(0, 46);
+            this.dgvInvoice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvInvoice.Name = "dgvInvoice";
             this.dgvInvoice.ReadOnly = true;
             this.dgvInvoice.RowHeadersWidth = 51;
             this.dgvInvoice.RowTemplate.Height = 24;
-            this.dgvInvoice.Size = new System.Drawing.Size(1293, 619);
+            this.dgvInvoice.Size = new System.Drawing.Size(970, 502);
             this.dgvInvoice.TabIndex = 0;
             this.dgvInvoice.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInvoice_CellClick);
             this.dgvInvoice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvInvoice_KeyDown);
@@ -77,6 +78,7 @@
             this.InvoiceID.HeaderText = "Invoice ID";
             this.InvoiceID.MinimumWidth = 6;
             this.InvoiceID.Name = "InvoiceID";
+            this.InvoiceID.ReadOnly = true;
             // 
             // CustomerName
             // 
@@ -84,6 +86,7 @@
             this.CustomerName.HeaderText = "CustomerName";
             this.CustomerName.MinimumWidth = 6;
             this.CustomerName.Name = "CustomerName";
+            this.CustomerName.ReadOnly = true;
             // 
             // EmployeeName
             // 
@@ -91,6 +94,7 @@
             this.EmployeeName.HeaderText = "Employee Name";
             this.EmployeeName.MinimumWidth = 6;
             this.EmployeeName.Name = "EmployeeName";
+            this.EmployeeName.ReadOnly = true;
             // 
             // Date
             // 
@@ -98,6 +102,7 @@
             this.Date.HeaderText = "Date";
             this.Date.MinimumWidth = 6;
             this.Date.Name = "Date";
+            this.Date.ReadOnly = true;
             // 
             // TotalAmount
             // 
@@ -106,9 +111,11 @@
             this.TotalAmount.HeaderText = "Total amount";
             this.TotalAmount.MinimumWidth = 6;
             this.TotalAmount.Name = "TotalAmount";
+            this.TotalAmount.ReadOnly = true;
             // 
             // pnlCustom
             // 
+            this.pnlCustom.BackgroundImage = global::StoreXManagement.Properties.Resources.hinh_nen_may_tinh_dep_4k2;
             this.pnlCustom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlCustom.Controls.Add(this.dateTimePicker1);
             this.pnlCustom.Controls.Add(this.btnExport);
@@ -120,24 +127,27 @@
             this.pnlCustom.Controls.Add(this.txtSearch);
             this.pnlCustom.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlCustom.Location = new System.Drawing.Point(0, 0);
+            this.pnlCustom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlCustom.Name = "pnlCustom";
-            this.pnlCustom.Size = new System.Drawing.Size(1293, 56);
+            this.pnlCustom.Size = new System.Drawing.Size(970, 46);
             this.pnlCustom.TabIndex = 2;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(297, 27);
+            this.dateTimePicker1.Location = new System.Drawing.Point(223, 22);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker1.TabIndex = 26;
             // 
             // lblSearchNotification
             // 
             this.lblSearchNotification.AutoSize = true;
             this.lblSearchNotification.ForeColor = System.Drawing.Color.Red;
-            this.lblSearchNotification.Location = new System.Drawing.Point(96, 8);
+            this.lblSearchNotification.Location = new System.Drawing.Point(72, 6);
+            this.lblSearchNotification.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSearchNotification.Name = "lblSearchNotification";
-            this.lblSearchNotification.Size = new System.Drawing.Size(0, 16);
+            this.lblSearchNotification.Size = new System.Drawing.Size(0, 13);
             this.lblSearchNotification.TabIndex = 24;
             // 
             // lblSearch
@@ -145,9 +155,10 @@
             this.lblSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblSearch.AutoSize = true;
-            this.lblSearch.Location = new System.Drawing.Point(3, 8);
+            this.lblSearch.Location = new System.Drawing.Point(2, 6);
+            this.lblSearch.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(50, 16);
+            this.lblSearch.Size = new System.Drawing.Size(41, 13);
             this.lblSearch.TabIndex = 1;
             this.lblSearch.Text = "Search";
             // 
@@ -156,9 +167,10 @@
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Location = new System.Drawing.Point(3, 27);
+            this.txtSearch.Location = new System.Drawing.Point(2, 22);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(258, 22);
+            this.txtSearch.Size = new System.Drawing.Size(194, 20);
             this.txtSearch.TabIndex = 1;
             // 
             // btnExport
@@ -170,9 +182,10 @@
             this.btnExport.ForeColor = System.Drawing.SystemColors.Control;
             this.btnExport.Image = global::StoreXManagement.Properties.Resources.import_file_lightColor;
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExport.Location = new System.Drawing.Point(1126, 13);
+            this.btnExport.Location = new System.Drawing.Point(844, 11);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(2);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(77, 29);
+            this.btnExport.Size = new System.Drawing.Size(58, 24);
             this.btnExport.TabIndex = 25;
             this.btnExport.Text = "Export";
             this.btnExport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -182,9 +195,10 @@
             // picRefresh
             // 
             this.picRefresh.Image = global::StoreXManagement.Properties.Resources.refresh_darkColor;
-            this.picRefresh.Location = new System.Drawing.Point(502, 26);
+            this.picRefresh.Location = new System.Drawing.Point(376, 21);
+            this.picRefresh.Margin = new System.Windows.Forms.Padding(2);
             this.picRefresh.Name = "picRefresh";
-            this.picRefresh.Size = new System.Drawing.Size(27, 25);
+            this.picRefresh.Size = new System.Drawing.Size(20, 20);
             this.picRefresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRefresh.TabIndex = 21;
             this.picRefresh.TabStop = false;
@@ -195,9 +209,10 @@
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Image = global::StoreXManagement.Properties.Resources.search_darkColor1;
-            this.btnSearch.Location = new System.Drawing.Point(267, 26);
+            this.btnSearch.Location = new System.Drawing.Point(200, 21);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(24, 23);
+            this.btnSearch.Size = new System.Drawing.Size(18, 19);
             this.btnSearch.TabIndex = 20;
             this.btnSearch.UseVisualStyleBackColor = false;
             // 
@@ -210,9 +225,10 @@
             this.btnAdd.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAdd.Image = global::StoreXManagement.Properties.Resources.add_lightColor;
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(1209, 13);
+            this.btnAdd.Location = new System.Drawing.Point(907, 11);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(70, 29);
+            this.btnAdd.Size = new System.Drawing.Size(52, 24);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -222,11 +238,12 @@
             // 
             // frmInvoice
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1293, 675);
+            this.ClientSize = new System.Drawing.Size(970, 548);
             this.Controls.Add(this.dgvInvoice);
             this.Controls.Add(this.pnlCustom);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmInvoice";
             this.Text = "Invoice";
             this.Load += new System.EventHandler(this.frmInvoice_Load);

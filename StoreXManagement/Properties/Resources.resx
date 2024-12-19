@@ -121,29 +121,44 @@
   <data name="user-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3-15-scaled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-15-scaled.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="open-file-DarkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open-file-DarkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hide-darkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hide-darkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="report-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit-darkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-darkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="minimize-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-lightColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-lightColor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hide-darkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide-darkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search-darkColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search-darkColor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hinh-nen-desktop-61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-desktop-61.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="employee-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\employee-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0055.png_860" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0055.png_860.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="customer-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\customer-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-may-tinh-dep-4k2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-may-tinh-dep-4k2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="product-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\product-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,11 +175,14 @@
   <data name="home-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit-darkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit-darkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hinh-nen-may-tinh-dep-4k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-may-tinh-dep-4k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="refresh-darkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\refresh-darkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-may-tinh-dep-4k1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-may-tinh-dep-4k1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,17 +199,32 @@
   <data name="show-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\show-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3-15-scaled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-15-scaled1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="edit-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logout-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user-lightColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-lightColor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="search-darkColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search-darkColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximize-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximize-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-8d-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-8d-thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-may-tinh-dep-4k - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-may-tinh-dep-4k - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-may-tinh-dep-4k - Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-may-tinh-dep-4k - Copy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +235,10 @@
   <data name="user-lightColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-lightColor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report-lightColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\report-lightColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hinh-nen-8d-thumbnail1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-8d-thumbnail1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-desktop-611" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-desktop-611.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
